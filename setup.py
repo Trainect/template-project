@@ -32,9 +32,9 @@ with open(
     version = re.search(pattern, f.read(), re.M).group(1)  # type: ignore
 
 setup(
-    name="enel-template-project",
+    name="template-project",
     version=version,
-    author="Enel S.p.A.",
+    author="Trainect",
     description="Template for the Python repositories of the ODIN program",
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
